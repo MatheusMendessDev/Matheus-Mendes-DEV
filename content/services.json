@@ -1,0 +1,79 @@
+{
+  "services": [
+    {
+      "id": "site-wordpress",
+      "name": {
+        "pt": "WordPress",
+        "en": "WordPress"
+      },
+      "pitch": {
+        "pt": "Um site WordPress pensado no seu negócio — não um tema genérico com seu logo em cima.",
+        "en": "A WordPress website built around your business — not a generic theme with your logo on it."
+      },
+      "deliverable": {
+        "pt": "Templates customizados, gestão de conteúdo flexível e integrações desenhadas para o que você realmente precisa.",
+        "en": "Custom templates, flexible content management and integrations designed around what you actually need."
+      }
+    },
+    {
+      "id": "loja-woocommerce",
+      "name": {
+        "pt": "WooCommerce",
+        "en": "WooCommerce"
+      },
+      "pitch": {
+        "pt": "Uma loja online que funciona além da página de checkout.",
+        "en": "An online store that works beyond the checkout page."
+      },
+      "deliverable": {
+        "pt": "Catálogos de produtos, campos customizados, pagamentos, integrações e um backend gerenciável para sua equipe.",
+        "en": "Product catalogs, custom fields, payments, integrations and a manageable backend for your team."
+      }
+    },
+    {
+      "id": "redesign-figma",
+      "name": {
+        "pt": "Figma → WordPress",
+        "en": "Figma → WordPress"
+      },
+      "pitch": {
+        "pt": "Tem um design? Transformo em um site real e editável.",
+        "en": "Have a design? I'll turn it into a real, editable website."
+      },
+      "deliverable": {
+        "pt": "Implementação pixel-conscious, layouts responsivos e componentes WordPress reutilizáveis.",
+        "en": "Pixel-conscious implementation, responsive layouts and reusable WordPress components."
+      }
+    },
+    {
+      "id": "conserto-performance",
+      "name": {
+        "pt": "Performance",
+        "en": "Performance"
+      },
+      "pitch": {
+        "pt": "WordPress lento? Vamos resolver o problema de verdade.",
+        "en": "Slow WordPress? Let's fix the actual problem."
+      },
+      "deliverable": {
+        "pt": "Auditorias de performance, otimização de imagens, cache, melhorias de código e Core Web Vitals.",
+        "en": "Performance audits, image optimization, caching, code improvements and Core Web Vitals."
+      }
+    },
+    {
+      "id": "manutencao-mensal",
+      "name": {
+        "pt": "Manutenção",
+        "en": "Maintenance"
+      },
+      "pitch": {
+        "pt": "Alguém para manter seu site funcionando depois do lançamento.",
+        "en": "Someone to keep your website working after launch."
+      },
+      "deliverable": {
+        "pt": "Updates, backups, correções, melhorias e suporte técnico contínuo.",
+        "en": "Updates, backups, fixes, improvements and ongoing technical support."
+      }
+    }
+  ]
+}

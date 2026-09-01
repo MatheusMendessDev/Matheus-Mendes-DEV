@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-title: "Ubuntu Mono", ui-monospace, "Cascadia Code", "Segoe UI Mono", monospace;
+}
+
+@layer base {
+  h1,
+  h2 {
+    font-family: var(--font-family-title);
+  }
+}
+
+@utility font-title {
+  font-family: var(--font-family-title);
+}

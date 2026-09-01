@@ -1,0 +1,88 @@
+{
+  "lang": "en",
+  "name": "Matheus Mendes",
+  "title": "WordPress & Front-end Developer",
+  "tagline": "",
+  "summaryHuman": "I solve business, content, and operational challenges with WordPress. From CMS architecture and WooCommerce workflows to integrations and performance bottlenecks, I turn real needs into flexible, manageable websites built to evolve.",
+  "summaryMachine": "Matheus Mendes develops WordPress solutions for business, content, and operational challenges. His work covers CMS architecture, WooCommerce workflows, integrations, and performance, delivering flexible, manageable websites built to evolve.",
+  "howIWorkWithAi": [
+    "Prototype and structure solutions faster with AI-assisted workflows",
+    "Write and review code with AI — while keeping architecture and decisions human-led",
+    "Automate repetitive tasks without sacrificing quality",
+    "Manually review performance, accessibility, and SEO",
+    "Test before shipping. Always."
+  ],
+  "availability": {
+    "available": true,
+    "status": "Available for freelance projects",
+    "nextWindow": "Reply within 24h",
+    "timezone": "America/Sao_Paulo"
+  },
+  "skills": [
+    "WordPress",
+    "WooCommerce",
+    "ACF",
+    "PHP",
+    "JavaScript",
+    "Elementor",
+    "Gutenberg",
+    "Custom themes",
+    "REST API",
+    "Performance",
+    "Technical SEO",
+    "Figma",
+    "Cursor",
+    "Git"
+  ],
+  "experience": [
+    {
+      "company": "Freelance",
+      "role": "WordPress Developer",
+      "period": "2020 — present",
+      "highlights": [
+        "Custom WordPress websites with flexible CMS architecture (ACF, Gutenberg, Elementor)",
+        "WooCommerce stores with product catalogs, custom fields, payments, and integrations",
+        "Performance optimization, technical SEO, and WordPress migrations"
+      ]
+    },
+    {
+      "company": "Web Agency / Studio",
+      "role": "WordPress Web Developer",
+      "period": "2017 — 2020",
+      "highlights": [
+        "Figma-to-WordPress implementation with responsive, editable layouts",
+        "Custom plugins, Gutenberg blocks, and REST/AJAX integrations",
+        "Ongoing maintenance, support, and local environments with Docker/WSL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "WooCommerce Store",
+      "description": "Online store with product catalog, custom fields, payment integrations, and a manageable backend."
+    },
+    {
+      "name": "WordPress Corporate Site",
+      "description": "Custom templates and flexible content management built around the client's workflow."
+    },
+    {
+      "name": "Figma to WordPress",
+      "description": "Pixel-conscious design implementation with responsive layouts and reusable components."
+    },
+    {
+      "name": "Performance optimization",
+      "description": "Core Web Vitals and PageSpeed Insights improvements through asset optimization, caching, lazy loading, and WordPress tuning for faster load times."
+    },
+    {
+      "name": "Technical SEO",
+      "description": "Technical SEO implementation with semantic structure, schema markup, sitemap, meta tags, and indexing fixes."
+    }
+  ],
+  "links": {
+    "website": "https://mms.dev",
+    "email": "matheusmendessilva.dev@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/matheusmendes22/",
+    "github": "https://github.com/MatheusMendessDev",
+    "whatsapp": "https://wa.me/5511977617473"
+  }
+}

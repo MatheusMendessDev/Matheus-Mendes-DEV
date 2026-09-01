@@ -1,0 +1,162 @@
+{
+  "portfolio_positioning": {
+    "primary_role": "WordPress Developer",
+    "specialization": [
+      "Custom WordPress Development",
+      "CMS Architecture",
+      "ACF and Custom Content Modeling",
+      "Low-Code WordPress Solutions",
+      "WooCommerce",
+      "Performance Optimization"
+    ],
+    "supporting_skills": [
+      "Frontend Development",
+      "PHP",
+      "JavaScript",
+      "React",
+      "Vue.js",
+      "SEO",
+      "API Integration"
+    ]
+  },
+  "categories": {
+    "frontend": {
+      "strong": [
+        "HTML5",
+        "CSS3",
+        "SCSS",
+        "Responsive Web Design",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
+      ],
+      "intermediate": [
+        "Tailwind CSS",
+        "Frontend component-based development",
+        "AJAX",
+        "DOM manipulation",
+        "Form validation",
+        "Debouncing",
+        "Slick Carousel"
+      ],
+      "basic": []
+    },
+    "wordpress": {
+      "strong": [
+        "WordPress",
+        "Custom WordPress themes",
+        "PHP templates",
+        "WordPress hooks",
+        "WP_Query",
+        "Custom Post Types",
+        "WordPress taxonomies",
+        "WordPress template hierarchy",
+        "functions.php",
+        "WordPress AJAX",
+        "ACF (Advanced Custom Fields)",
+        "Elementor",
+        "WooCommerce",
+        "Polylang"
+      ],
+      "intermediate": [
+        "Custom WordPress plugins",
+        "Gutenberg",
+        "Custom Gutenberg blocks",
+        "JetEngine",
+        "WooCommerce customizations",
+        "WordPress REST/API integrations",
+        "WordPress migrations",
+        "WordPress performance optimization",
+        "WordPress SEO",
+        "Yoast SEO",
+        "WP Mail SMTP",
+        "All-in-One WP Migration",
+        "NitroPack",
+        "PixelYourSite"
+      ],
+      "basic": []
+    },
+    "backend": {
+      "strong": ["PHP", "PHP-based WordPress development"],
+      "intermediate": ["MySQL", "REST APIs", "AJAX endpoints", "Server-side WordPress development"],
+      "basic": ["API integration architecture"]
+    },
+    "javascript_frameworks": {
+      "strong": [],
+      "intermediate": ["React", "Vue.js"],
+      "basic": []
+    },
+    "cms_and_low_code": {
+      "strong": ["WordPress CMS", "ACF-based content modeling", "Elementor"],
+      "intermediate": ["JetEngine", "Gutenberg", "Optimizely CMS / EPiServer"],
+      "basic": []
+    },
+    "devops_and_local_development": {
+      "strong": [],
+      "intermediate": [
+        "Git",
+        "Git branching and conflict resolution",
+        "Docker",
+        "Docker Compose",
+        "WSL",
+        "Local WordPress environments",
+        "Database migration"
+      ],
+      "basic": ["Server configuration", "Apache/.htaccess configuration"]
+    },
+    "seo_and_performance": {
+      "strong": ["Technical SEO fundamentals", "Responsive/mobile optimization"],
+      "intermediate": [
+        "WordPress SEO",
+        "Page performance optimization",
+        "LCP optimization",
+        "Image optimization",
+        "Caching/CDN optimization",
+        "Sitemap troubleshooting"
+      ],
+      "basic": []
+    },
+    "design_and_ui": {
+      "strong": ["Figma", "Photoshop", "Responsive UI implementation"],
+      "intermediate": ["UI implementation from design", "Prototyping", "Usability fundamentals"],
+      "basic": []
+    },
+    "tools_and_workflow": {
+      "strong": ["Cursor"],
+      "intermediate": ["Git", "Reaper"],
+      "basic": ["Bitnami", "Umbler"]
+    }
+  },
+  "uiStack": {
+    "wordpress": {
+      "label": { "pt": "WordPress", "en": "WordPress" },
+      "items": [
+        "WordPress",
+        "WooCommerce",
+        "ACF",
+        "Elementor",
+        "Gutenberg",
+        "Custom themes",
+        "CPTs & taxonomies",
+        "Polylang"
+      ]
+    },
+    "code": {
+      "label": { "pt": "Código", "en": "Code" },
+      "items": ["PHP", "JavaScript", "HTML5", "CSS3/SCSS", "Bootstrap", "REST API", "React", "Vue.js"]
+    },
+    "workflow": {
+      "label": { "pt": "Workflow", "en": "Workflow" },
+      "items": ["Cursor", "Git", "Docker", "Figma", "Technical SEO", "Performance"]
+    }
+  },
+  "alsoWorksWith": [
+    "Tailwind CSS",
+    "Custom plugins",
+    "JetEngine",
+    "MySQL",
+    "WordPress migrations",
+    "Yoast SEO",
+    "jQuery"
+  ]
+}
