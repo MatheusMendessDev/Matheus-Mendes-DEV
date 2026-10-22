@@ -1,10 +1,10 @@
 {
   "lang": "pt",
   "name": "Matheus Mendes",
-  "title": "Desenvolvedor WordPress & Front-end",
+  "title": "Engenheiro de Software",
   "tagline": "",
-  "summaryHuman": "Resolvo desafios de negócio, conteúdo e operação com WordPress. De arquiteturas de CMS e fluxos WooCommerce a integrações e gargalos de performance, transformo necessidades reais em sites flexíveis, fáceis de gerenciar e preparados para evoluir.",
-  "summaryMachine": "Matheus Mendes desenvolve soluções WordPress para desafios de negócio, conteúdo e operação. Atua com arquitetura de CMS, fluxos WooCommerce, integrações e performance, entregando sites flexíveis, gerenciáveis e preparados para evoluir.",
+  "summaryHuman": "Resolvo problemas de negócio com software. Primeiro entendo o problema, depois escolho a solução e a tecnologia certas para ele — de interfaces e integrações a performance e SEO técnico — e entrego produtos rápidos, fáceis de manter e preparados para evoluir.",
+  "summaryMachine": "Matheus Mendes é engenheiro de software focado em resolver problemas de negócio: entende o contexto, escolhe a solução e a tecnologia adequadas e entrega produtos web rápidos, fáceis de manter e preparados para evoluir, com experiência em front-end, integrações, performance e SEO técnico.",
   "howIWorkWithAi": [
     "Prototipar e estruturar soluções mais rápido com fluxos assistidos por IA",
     "Escrever e revisar código com IA — mantendo arquitetura e decisões sob direção humana",
@@ -58,24 +58,51 @@
   ],
   "projects": [
     {
-      "name": "Loja WooCommerce",
-      "description": "Loja online com catálogo de produtos, campos customizados, integrações de pagamento e backend gerenciável."
+      "segment": "Fintech · Meios de pagamento",
+      "name": "Site institucional de uma fintech de pagamentos",
+      "description": "O desafio: transformar o design do Figma em um site rápido e 100% editável pelo time, sem depender de um desenvolvedor a cada mudança. Depois do lançamento, uma rodada de melhorias de SEO e performance.",
+      "highlights": [
+        "Tema customizado fiel ao layout do Figma",
+        "Conteúdo modelado com ACF para o time editar sem mexer em código",
+        "Boas práticas de SEO técnico e performance aplicadas pós-lançamento"
+      ],
+      "tags": [
+        "WordPress",
+        "ACF",
+        "Figma",
+        "SEO",
+        "Performance"
+      ]
     },
     {
-      "name": "Site institucional WordPress",
-      "description": "Templates customizados e gestão de conteúdo flexível construídos em torno do fluxo do cliente."
+      "segment": "Indústria farmacêutica · Multinacional",
+      "name": "Site institucional de uma farmacêutica global",
+      "description": "O desafio: dar ao time de marketing autonomia para criar e atualizar páginas, com uma estrutura organizada que não vira bagunça conforme o site cresce.",
+      "highlights": [
+        "Páginas montadas no Elementor de forma organizada e reutilizável",
+        "Autonomia para o time de marketing atualizar o conteúdo",
+        "Boas práticas de engenharia do início ao fim"
+      ],
+      "tags": [
+        "WordPress",
+        "Elementor",
+        "Boas práticas"
+      ]
     },
     {
-      "name": "Figma → WordPress",
-      "description": "Implementação fiel ao design com layouts responsivos e componentes reutilizáveis."
-    },
-    {
-      "name": "Otimização de performance",
-      "description": "Melhoria de Core Web Vitals e PageSpeed Insights com otimização de assets, cache, lazy load e ajustes no WordPress para carregamento mais rápido."
-    },
-    {
-      "name": "SEO técnico",
-      "description": "Implementação de SEO técnico com estrutura semântica, schema markup, sitemap, meta tags e correções de indexação."
+      "segment": "Saúde · Marcas de medicamentos",
+      "name": "Sites de três marcas de medicamentos",
+      "description": "O desafio: sites de produto que precisavam carregar rápido e aparecer bem na busca. Performance e SEO tratados como requisito desde o início, não como ajuste no final.",
+      "highlights": [
+        "Foco em velocidade de carregamento",
+        "Estrutura pensada para SEO desde o início",
+        "Base consistente entre os três sites"
+      ],
+      "tags": [
+        "WordPress",
+        "Performance",
+        "SEO"
+      ]
     }
   ],
   "links": {

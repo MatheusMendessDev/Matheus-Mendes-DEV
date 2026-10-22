@@ -10,7 +10,7 @@ export const ui = {
       cta: 'Falar sobre um projeto',
     },
     footer: {
-      note: 'Matheus Mendes — soluções WordPress',
+      note: 'Matheus Mendes — engenharia de software',
     },
     sections: {
       howIWorkWithAi: 'Um processo focado na solução',
@@ -20,6 +20,15 @@ export const ui = {
       contact: 'Contato',
     },
     alsoWorksWith: 'Também trabalho com',
+    projects: {
+      eyebrow: 'Cases selecionados',
+      intro: 'Alguns projetos recentes. Nomes e links dos clientes ficam de fora por confidencialidade.',
+      confidential: 'Cliente confidencial',
+    },
+    contact: {
+      title: 'Vamos tirar seu projeto do papel?',
+      text: 'Conte o que você precisa. Respondo em até 24h.',
+    },
     switchLang: 'EN',
   },
   en: {
@@ -31,7 +40,7 @@ export const ui = {
       cta: 'Discuss a project',
     },
     footer: {
-      note: 'Matheus Mendes — WordPress solutions',
+      note: 'Matheus Mendes — software engineering',
     },
     sections: {
       howIWorkWithAi: 'A process built around the solution',
@@ -41,6 +50,15 @@ export const ui = {
       contact: 'Contact',
     },
     alsoWorksWith: 'Also works with',
+    projects: {
+      eyebrow: 'Selected work',
+      intro: 'A few recent projects. Client names and links are left out for confidentiality.',
+      confidential: 'Confidential client',
+    },
+    contact: {
+      title: 'Ready to get your project off the ground?',
+      text: 'Tell me what you need. I reply within 24h.',
+    },
     switchLang: 'PT',
   },
 } as const;

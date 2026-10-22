@@ -1,6 +1,6 @@
 {
   "portfolio_positioning": {
-    "primary_role": "WordPress Developer",
+    "primary_role": "Software Engineer",
     "specialization": [
       "Custom WordPress Development",
       "CMS Architecture",
@@ -77,18 +77,39 @@
       "basic": []
     },
     "backend": {
-      "strong": ["PHP", "PHP-based WordPress development"],
-      "intermediate": ["MySQL", "REST APIs", "AJAX endpoints", "Server-side WordPress development"],
-      "basic": ["API integration architecture"]
+      "strong": [
+        "PHP",
+        "PHP-based WordPress development"
+      ],
+      "intermediate": [
+        "MySQL",
+        "REST APIs",
+        "AJAX endpoints",
+        "Server-side WordPress development"
+      ],
+      "basic": [
+        "API integration architecture"
+      ]
     },
     "javascript_frameworks": {
       "strong": [],
-      "intermediate": ["React", "Vue.js"],
+      "intermediate": [
+        "React",
+        "Vue.js"
+      ],
       "basic": []
     },
     "cms_and_low_code": {
-      "strong": ["WordPress CMS", "ACF-based content modeling", "Elementor"],
-      "intermediate": ["JetEngine", "Gutenberg", "Optimizely CMS / EPiServer"],
+      "strong": [
+        "WordPress CMS",
+        "ACF-based content modeling",
+        "Elementor"
+      ],
+      "intermediate": [
+        "JetEngine",
+        "Gutenberg",
+        "Optimizely CMS / EPiServer"
+      ],
       "basic": []
     },
     "devops_and_local_development": {
@@ -102,10 +123,16 @@
         "Local WordPress environments",
         "Database migration"
       ],
-      "basic": ["Server configuration", "Apache/.htaccess configuration"]
+      "basic": [
+        "Server configuration",
+        "Apache/.htaccess configuration"
+      ]
     },
     "seo_and_performance": {
-      "strong": ["Technical SEO fundamentals", "Responsive/mobile optimization"],
+      "strong": [
+        "Technical SEO fundamentals",
+        "Responsive/mobile optimization"
+      ],
       "intermediate": [
         "WordPress SEO",
         "Page performance optimization",
@@ -117,19 +144,38 @@
       "basic": []
     },
     "design_and_ui": {
-      "strong": ["Figma", "Photoshop", "Responsive UI implementation"],
-      "intermediate": ["UI implementation from design", "Prototyping", "Usability fundamentals"],
+      "strong": [
+        "Figma",
+        "Photoshop",
+        "Responsive UI implementation"
+      ],
+      "intermediate": [
+        "UI implementation from design",
+        "Prototyping",
+        "Usability fundamentals"
+      ],
       "basic": []
     },
     "tools_and_workflow": {
-      "strong": ["Cursor"],
-      "intermediate": ["Git", "Reaper"],
-      "basic": ["Bitnami", "Umbler"]
+      "strong": [
+        "Cursor"
+      ],
+      "intermediate": [
+        "Git",
+        "Reaper"
+      ],
+      "basic": [
+        "Bitnami",
+        "Umbler"
+      ]
     }
   },
   "uiStack": {
     "wordpress": {
-      "label": { "pt": "WordPress", "en": "WordPress" },
+      "label": {
+        "pt": "CMS & e-commerce",
+        "en": "CMS & e-commerce"
+      },
       "items": [
         "WordPress",
         "WooCommerce",
@@ -142,12 +188,34 @@
       ]
     },
     "code": {
-      "label": { "pt": "Código", "en": "Code" },
-      "items": ["PHP", "JavaScript", "HTML5", "CSS3/SCSS", "Bootstrap", "REST API", "React", "Vue.js"]
+      "label": {
+        "pt": "Código",
+        "en": "Code"
+      },
+      "items": [
+        "PHP",
+        "JavaScript",
+        "HTML5",
+        "CSS3/SCSS",
+        "Bootstrap",
+        "REST API",
+        "React",
+        "Vue.js"
+      ]
     },
     "workflow": {
-      "label": { "pt": "Workflow", "en": "Workflow" },
-      "items": ["Cursor", "Git", "Docker", "Figma", "Technical SEO", "Performance"]
+      "label": {
+        "pt": "Workflow",
+        "en": "Workflow"
+      },
+      "items": [
+        "Cursor",
+        "Git",
+        "Docker",
+        "Figma",
+        "Technical SEO",
+        "Performance"
+      ]
     }
   },
   "alsoWorksWith": [

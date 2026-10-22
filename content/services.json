@@ -3,46 +3,46 @@
     {
       "id": "site-wordpress",
       "name": {
-        "pt": "WordPress",
-        "en": "WordPress"
+        "pt": "Produtos sob medida",
+        "en": "Custom products"
       },
       "pitch": {
-        "pt": "Um site WordPress pensado no seu negócio — não um tema genérico com seu logo em cima.",
-        "en": "A WordPress website built around your business — not a generic theme with your logo on it."
+        "pt": "Software pensado para o seu negócio — não um template genérico com seu logo em cima.",
+        "en": "Software built around your business — not a generic template with your logo on it."
       },
       "deliverable": {
-        "pt": "Templates customizados, gestão de conteúdo flexível e integrações desenhadas para o que você realmente precisa.",
-        "en": "Custom templates, flexible content management and integrations designed around what you actually need."
+        "pt": "Arquitetura, componentes e gestão de conteúdo desenhados para o que você precisa, na tecnologia certa para o caso.",
+        "en": "Architecture, components and content management designed around what you need, with the right technology for the job."
       }
     },
     {
       "id": "loja-woocommerce",
       "name": {
-        "pt": "WooCommerce",
-        "en": "WooCommerce"
+        "pt": "E-commerce",
+        "en": "E-commerce"
       },
       "pitch": {
         "pt": "Uma loja online que funciona além da página de checkout.",
         "en": "An online store that works beyond the checkout page."
       },
       "deliverable": {
-        "pt": "Catálogos de produtos, campos customizados, pagamentos, integrações e um backend gerenciável para sua equipe.",
-        "en": "Product catalogs, custom fields, payments, integrations and a manageable backend for your team."
+        "pt": "Catálogo, pagamentos, integrações e um painel que a sua equipe consegue gerenciar.",
+        "en": "Catalog, payments, integrations and a back office your team can actually manage."
       }
     },
     {
       "id": "redesign-figma",
       "name": {
-        "pt": "Figma → WordPress",
-        "en": "Figma → WordPress"
+        "pt": "Design → código",
+        "en": "Design → code"
       },
       "pitch": {
-        "pt": "Tem um design? Transformo em um site real e editável.",
-        "en": "Have a design? I'll turn it into a real, editable website."
+        "pt": "Tem um design? Transformo em um produto real, responsivo e fácil de manter.",
+        "en": "Have a design? I'll turn it into a real, responsive, maintainable product."
       },
       "deliverable": {
-        "pt": "Implementação pixel-conscious, layouts responsivos e componentes WordPress reutilizáveis.",
-        "en": "Pixel-conscious implementation, responsive layouts and reusable WordPress components."
+        "pt": "Implementação fiel ao layout, componentes reutilizáveis e responsividade de verdade.",
+        "en": "Faithful implementation, reusable components and real responsiveness."
       }
     },
     {
@@ -52,27 +52,27 @@
         "en": "Performance"
       },
       "pitch": {
-        "pt": "WordPress lento? Vamos resolver o problema de verdade.",
-        "en": "Slow WordPress? Let's fix the actual problem."
+        "pt": "Site lento? Vamos achar e resolver a causa real.",
+        "en": "Slow website? Let's find and fix the actual cause."
       },
       "deliverable": {
-        "pt": "Auditorias de performance, otimização de imagens, cache, melhorias de código e Core Web Vitals.",
-        "en": "Performance audits, image optimization, caching, code improvements and Core Web Vitals."
+        "pt": "Diagnóstico, otimização de assets e cache, melhorias de código e Core Web Vitals.",
+        "en": "Diagnosis, asset and caching optimization, code improvements and Core Web Vitals."
       }
     },
     {
       "id": "manutencao-mensal",
       "name": {
-        "pt": "Manutenção",
-        "en": "Maintenance"
+        "pt": "Evolução contínua",
+        "en": "Ongoing evolution"
       },
       "pitch": {
-        "pt": "Alguém para manter seu site funcionando depois do lançamento.",
-        "en": "Someone to keep your website working after launch."
+        "pt": "Alguém para manter seu produto funcionando e evoluindo depois do lançamento.",
+        "en": "Someone to keep your product working and evolving after launch."
       },
       "deliverable": {
-        "pt": "Updates, backups, correções, melhorias e suporte técnico contínuo.",
-        "en": "Updates, backups, fixes, improvements and ongoing technical support."
+        "pt": "Atualizações, correções, melhorias e suporte técnico contínuo.",
+        "en": "Updates, fixes, improvements and ongoing technical support."
       }
     }
   ]

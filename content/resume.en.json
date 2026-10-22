@@ -1,10 +1,10 @@
 {
   "lang": "en",
   "name": "Matheus Mendes",
-  "title": "WordPress & Front-end Developer",
+  "title": "Software Engineer",
   "tagline": "",
-  "summaryHuman": "I solve business, content, and operational challenges with WordPress. From CMS architecture and WooCommerce workflows to integrations and performance bottlenecks, I turn real needs into flexible, manageable websites built to evolve.",
-  "summaryMachine": "Matheus Mendes develops WordPress solutions for business, content, and operational challenges. His work covers CMS architecture, WooCommerce workflows, integrations, and performance, delivering flexible, manageable websites built to evolve.",
+  "summaryHuman": "I solve business problems with software. I start by understanding the problem, then pick the right solution and technology for it — from interfaces and integrations to performance and technical SEO — and ship products that are fast, easy to maintain and built to evolve.",
+  "summaryMachine": "Matheus Mendes is a software engineer focused on solving business problems: he understands the context, picks the right solution and technology, and ships fast, maintainable web products built to evolve, with experience in front-end, integrations, performance and technical SEO.",
   "howIWorkWithAi": [
     "Prototype and structure solutions faster with AI-assisted workflows",
     "Write and review code with AI — while keeping architecture and decisions human-led",
@@ -58,24 +58,51 @@
   ],
   "projects": [
     {
-      "name": "WooCommerce Store",
-      "description": "Online store with product catalog, custom fields, payment integrations, and a manageable backend."
+      "segment": "Fintech · Payments",
+      "name": "Corporate website for a payments fintech",
+      "description": "The challenge: turn the Figma design into a fast website the team can fully edit, without needing a developer for every change. After launch, a round of SEO and performance improvements.",
+      "highlights": [
+        "Custom theme faithful to the Figma layout",
+        "Content modeled with ACF so the team can edit without touching code",
+        "Technical SEO and performance best practices applied after launch"
+      ],
+      "tags": [
+        "WordPress",
+        "ACF",
+        "Figma",
+        "SEO",
+        "Performance"
+      ]
     },
     {
-      "name": "WordPress Corporate Site",
-      "description": "Custom templates and flexible content management built around the client's workflow."
+      "segment": "Pharmaceutical industry · Multinational",
+      "name": "Corporate website for a global pharma company",
+      "description": "The challenge: give the marketing team autonomy to create and update pages, with an organized structure that does not turn into a mess as the site grows.",
+      "highlights": [
+        "Pages built in Elementor in an organized, reusable way",
+        "Autonomy for the marketing team to update content",
+        "Engineering best practices from start to finish"
+      ],
+      "tags": [
+        "WordPress",
+        "Elementor",
+        "Best practices"
+      ]
     },
     {
-      "name": "Figma to WordPress",
-      "description": "Pixel-conscious design implementation with responsive layouts and reusable components."
-    },
-    {
-      "name": "Performance optimization",
-      "description": "Core Web Vitals and PageSpeed Insights improvements through asset optimization, caching, lazy loading, and WordPress tuning for faster load times."
-    },
-    {
-      "name": "Technical SEO",
-      "description": "Technical SEO implementation with semantic structure, schema markup, sitemap, meta tags, and indexing fixes."
+      "segment": "Healthcare · Medicine brands",
+      "name": "Websites for three medicine brands",
+      "description": "The challenge: product websites that had to load fast and rank well in search. Performance and SEO treated as requirements from day one, not as a final tweak.",
+      "highlights": [
+        "Focus on loading speed",
+        "SEO-ready structure from day one",
+        "Consistent foundation across all three sites"
+      ],
+      "tags": [
+        "WordPress",
+        "Performance",
+        "SEO"
+      ]
     }
   ],
   "links": {

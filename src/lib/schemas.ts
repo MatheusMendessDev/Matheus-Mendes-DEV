@@ -17,9 +17,14 @@ export const ExperienceSchema = z.object({
   highlights: z.array(z.string()),
 });
 
+/** Projeto de cliente. Sem nome nem URL do cliente: os cases são anônimos por confidencialidade. */
 export const ProjectSchema = z.object({
+  /** Segmento do cliente, ex.: "Fintech · Meios de pagamento". */
+  segment: z.string().optional(),
   name: z.string(),
   description: z.string(),
+  highlights: z.array(z.string()).default([]),
+  tags: z.array(z.string()).default([]),
 });
 
 export const LinksSchema = z.object({

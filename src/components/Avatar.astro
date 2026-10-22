@@ -1,0 +1,148 @@
+---
+/**
+ * Avatar do topo: o minifig LEGO sobre um disco verde-limão, "saindo" um pouco do
+ * círculo, com um anel de texto girando e um selo de "Oi!".
+ */
+import { Image } from 'astro:assets';
+import minifig from '../assets/avatar-lego.webp';
+import type { Lang } from '../lib/schemas';
+
+interface Props {
+  lang: Lang;
+  name: string;
+}
+
+const { lang, name } = Astro.props;
+const ring = 'SOFTWARE ENGINEER • PROBLEM SOLVER • FRONT-END • ';
+---
+
+<div class="avatar">
+  <span class="avatar-shadow" aria-hidden="true"></span>
+
+  <svg class="avatar-ring" viewBox="0 0 200 200" aria-hidden="true">
+    <defs>
+      <path id="avatar-ring-path" d="M100,100 m-88,0 a88,88 0 1,1 176,0 a88,88 0 1,1 -176,0" />
+    </defs>
+    <text>
+      <textPath href="#avatar-ring-path" textLength="548">{ring}</textPath>
+    </text>
+  </svg>
+
+  <span class="avatar-disc" aria-hidden="true"></span>
+
+  <Image
+    src={minifig}
+    alt={lang === 'en' ? `${name} as a LEGO minifigure` : `${name} como um boneco LEGO`}
+    widths={[280, 420, 548]}
+    sizes="(min-width: 1024px) 15rem, 42vw"
+    format="webp"
+    loading="eager"
+    fetchpriority="high"
+    class="avatar-figure"
+  />
+
+  <span class="avatar-sticker">👋 {lang === 'en' ? 'Hi!' : 'Oi!'}</span>
+  <span class="avatar-dot" aria-hidden="true"></span>
+</div>
+
+<style>
+  .avatar {
+    position: relative;
+    width: min(17rem, 72vw);
+    aspect-ratio: 1;
+  }
+
+  @media (min-width: 1024px) {
+    .avatar {
+      width: 25rem;
+    }
+  }
+
+  /* Disco menta deslocado atrás do disco principal, como uma "sombra" chapada. */
+  .avatar-shadow {
+    position: absolute;
+    inset: 13%;
+    border-radius: 9999px;
+    background: var(--color-mint);
+    transform: translate(6%, 6%);
+    opacity: 0.25;
+  }
+
+  .avatar-ring {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    fill: var(--color-lime);
+    font-family: var(--font-family-title);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    animation: avatar-spin 28s linear infinite;
+  }
+
+  .avatar-disc {
+    position: absolute;
+    inset: 13%;
+    border-radius: 9999px;
+    background: var(--color-lime);
+  }
+
+  /* O boneco fica em pé sobre o disco, com a cabeça passando um pouco por cima dele. */
+  .avatar-figure {
+    position: absolute;
+    left: 50%;
+    bottom: 12%;
+    height: 82%;
+    width: auto;
+    transform: translateX(-50%);
+    filter: drop-shadow(0 14px 18px rgb(11 26 0 / 0.45));
+    transition: transform 400ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+
+  .avatar:hover .avatar-figure {
+    transform: translateX(-50%) translateY(-4%) rotate(-3deg);
+  }
+
+  .avatar-sticker {
+    position: absolute;
+    z-index: 1;
+    left: 2%;
+    bottom: 12%;
+    padding: 0.55rem 1rem;
+    border-radius: 9999px;
+    background: #fff;
+    color: var(--color-forest);
+    font-family: var(--font-family-title);
+    font-size: 1.05rem;
+    font-weight: 800;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 0.25);
+    transform: rotate(-8deg);
+  }
+
+  .avatar-dot {
+    position: absolute;
+    right: 6%;
+    top: 10%;
+    width: 9%;
+    aspect-ratio: 1;
+    border-radius: 9999px;
+    background: var(--color-mint);
+  }
+
+  @keyframes avatar-spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .avatar-ring {
+      animation: none;
+    }
+
+    .avatar-figure {
+      transition: none;
+    }
+  }
+</style>
